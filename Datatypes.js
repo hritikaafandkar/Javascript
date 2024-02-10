@@ -16,3 +16,12 @@ var str ="hello world";
 console.log(str);
 var str2=str.toUpperCase();
 console.log(str2);
+console.log("--------------------------------------");
+function blockscoped (){
+    let abc ="Hii";
+    console.log(abc);
+}
+console.log(blockscoped());
+
+let abc="Good Morning";
+console.log(abc);
